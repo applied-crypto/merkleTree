@@ -1,0 +1,19 @@
+{
+  "name": "merkletree",
+  "version": "0.1.0",
+  "description": "A very straight forward implementation of Merkle trees. No security audits. No code for production, just for research.",
+  "main": "lib.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "merkletree"
+  ],
+  "author": "Matthias Babel",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "circomlibjs": "^0.1.7",
+    "mocha": "^10.2.0"
+  }
+}
