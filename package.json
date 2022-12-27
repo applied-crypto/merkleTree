@@ -1,23 +1,32 @@
 {
-  "name": "merkletree",
+  "name": "@fim/merkletree",
   "version": "0.1.0",
-  "description": "A very straight forward implementation of Merkle trees. No security audits. No code for production, just for research.",
+  "description": "A very straight forward implementation of Merkle trees for exchangeable hash functions. No security audits. No code for production, just for research.",
   "main": "lib.js",
   "type": "module",
   "scripts": {
     "test": "mocha"
   },
   "keywords": [
-    "merkletree"
+    "merkle tree",
+    "binary tree",
+    "merkle proof"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/matthiasbabel/merkleTree.git"
+    "url": "git+https://github.com/matthiasbabel/merkleTree.git"
   },
   "author": "Matthias Babel",
   "license": "Apache-2.0",
   "devDependencies": {
     "circomlibjs": "^0.1.7",
     "mocha": "^10.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/matthiasbabel/merkleTree/issues"
+  },
+  "homepage": "https://github.com/matthiasbabel/merkleTree#readme",
+  "directories": {
+    "test": "test"
   }
 }
