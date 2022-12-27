@@ -27,3 +27,5 @@ assert(poseidon.F.toObject(tree.root) === poseidon.F.toObject(root), true);
 
 ### Disclaimer
 Only for research purpose. No security audits done. Don't use in production.
+
+[@Branch Business and Information System Engineering of the Fraunhofer FIT](https://www.fim-rc.de/en/)

@@ -1,6 +1,6 @@
 {
   "name": "@applied-crypto/merkletree",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A very straight forward implementation of Merkle trees for exchangeable hash functions. No security audits. No code for production, just for research.",
   "main": "lib.js",
   "type": "module",
