@@ -28,5 +28,9 @@
   "homepage": "https://github.com/matthiasbabel/merkleTree#readme",
   "directories": {
     "test": "test"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
