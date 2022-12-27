@@ -1,7 +1,7 @@
 {
   "name": "@applied-crypto/merkletree",
-  "version": "0.1.1",
-  "description": "A very straight forward implementation of Merkle trees for exchangeable hash functions. No security audits. No code for production, just for research.",
+  "version": "0.1.2",
+  "description": "A straight forward implementation of a binary balanced Merkle trees and proofs in JavaScript. Compatible with any hash function. Designed for the use of Poseidon in Circom.",
   "main": "lib.js",
   "type": "module",
   "scripts": {
@@ -12,7 +12,8 @@
     "binary tree",
     "merkle proof",
     "circom",
-    "zkp"
+    "zkp",
+    "poseidon"
   ],
   "repository": {
     "type": "git",

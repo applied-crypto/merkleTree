@@ -1,6 +1,13 @@
 # MerkleTree
-A straight forward implementation of a binary balanced Merkle tree in JavaScript.
-Support Merkle proofs.
+A straight forward implementation of a binary balanced Merkle trees and proofs in JavaScript.
+Compatible with any hash function. 
+Specially designed for the use of Poseidon in Circom.
+
+## Install
+
+```shell
+npm install @applied-crypto/merkletree
+```
 
 ## Usage
 
@@ -24,6 +31,11 @@ let merkleProof = tree.getMerkleProof(293);
 let root = merkleProof.calculateRoot();
 assert(poseidon.F.toObject(tree.root) === poseidon.F.toObject(root), true);
 ```
+
+### Validating Merkle proofs in Zero-Knowledge Proofs (ZKPs) 
+
+For validating the generated Merkle proofs in [Circom](https://github.com/iden3/circom), see the 
+[circuit.circom](./circuit.circom).
 
 ### Disclaimer
 Only for research purpose. No security audits done. Don't use in production.
